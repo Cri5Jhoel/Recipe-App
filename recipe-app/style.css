@@ -1,0 +1,28 @@
+/*Font dowloaded -> (https://fonts.google.com/specimen/Poppins)*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #076585; 
+    background: -webkit-linear-gradient(to right, #fff, #076585);
+    background: linear-gradient(to right, #fff, #076585); 
+    
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-container {
+    background-color: #Fff;
+    width: 400px;
+}
+
+img {
+    max-width: 100%;
+}
